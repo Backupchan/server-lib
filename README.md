@@ -17,9 +17,3 @@ git clone https://github.com/Backupchan/server-lib.git backupchan-server-lib
 cd backupchan-server-lib
 pip install .
 ```
-
-## Testing
-
-```
-pytest
-```
