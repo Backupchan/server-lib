@@ -4,7 +4,7 @@
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/backupchan-server-lib)
 ![PyPI - Version](https://img.shields.io/pypi/v/backupchan-server-lib)
 
-A library containing utility functions and structures shared between the Backup-chan [server](https://github.com/Backupchan/server) and [mirror](https://github.com/Backupchan/mirror).
+A library containing utility functions and structures for the Backup-chan server.
 
 ## Installing
 

@@ -1,7 +1,7 @@
 [project]
 name = "backupchan-server-lib"
-version = "0.1.0"
-description="Utilities and structures shared between the server-side parts of Backup-chan."
+version = "0.1.1"
+description="Utilities and structures used by the Backup-chan server."
 authors = [
     { name="Moltony", email="koronavirusnyj@gmail.com" }
 ]
