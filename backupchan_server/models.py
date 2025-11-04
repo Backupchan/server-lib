@@ -35,6 +35,7 @@ class BackupTarget:
     name_template: str
     deduplicate: bool
     alias: Optional[str]
+    min_backups: int
 
 @dataclass
 class Backup:
