@@ -34,3 +34,6 @@ def is_valid_path(path: str, slash_ok: bool) -> bool:
 
     # Regardless of system, disallow non-printable characters for sanity.
     return is_printable_string(path) and slash_ok or (not slash_ok and "/" not in path)
+
+def join_path(*args):
+    return "/".join(args)
