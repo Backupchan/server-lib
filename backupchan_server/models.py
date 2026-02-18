@@ -46,12 +46,6 @@ class Backup:
     is_recycled: bool
     filesize: int
 
-    def pretty_created_at(self) -> str:
-        return self.created_at.strftime("%B %d, %Y %H:%M")
-
-    def pretty_filesize(self) -> str:
-        return utility.humanread_file_size(self.filesize)
-
     def asdict(self) -> dict:
         backup = asdict(self)
         backup["created_at"] = self.created_at.isoformat()
