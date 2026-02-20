@@ -36,6 +36,7 @@ class BackupTarget:
     deduplicate: bool
     alias: Optional[str]
     min_backups: int
+    tags: list[str]
 
 @dataclass
 class Backup:
